@@ -12,8 +12,10 @@ body {
 }
 
 h1 {
-    text-shadow: black 2px 2px 3px;
+    color: rgb(234, 228, 236);
+    text-shadow: rgb(68, 0, 107) 4px 4px 4px;
     border-bottom: 10px solid #fc7100;
+    border-bottom-style: double;
     padding: 20px;
     color: #fffefd;
     font-weight: bold;
@@ -91,6 +93,6 @@ form input tel-agenda {
 }
 
 tbody {
-    color: rgb(255, 255, 255);
-    text-shadow: black 2px 2px 2px;
+    color: rgb(234, 228, 236);
+    text-shadow: rgb(68, 0, 107) 2px 2px 2px;
 }
