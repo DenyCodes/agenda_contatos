@@ -8,11 +8,15 @@
 body {
     background-color: rgb(250, 249, 249);
     padding-top: 100px;
+    background: url("./cosmos.png")
 }
 
 h1 {
-    border-bottom: 2px solid #000;
+    border-bottom: 10px solid #fc7100;
     padding: 20px;
+    color: #fffefd;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 header {
@@ -39,9 +43,10 @@ form {
 form input {
     font-size: 24px;
     background-color: #ffffff;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #ffffff;
     padding: 20px 0; 
     padding-left: 100px;
+    border-radius: 29px;
 }
 
 
@@ -53,6 +58,7 @@ form button {
     border: none;
     cursor: pointer;
     padding: 8px;
+    border-radius: 20px;
 }
 
 table {
@@ -61,20 +67,25 @@ table {
 
 table th {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #fc7100;
     padding: 1px;
     font-size: 24px;
     font-weight: bold;
-
+    border-radius: 250px;
+    
 }
 
 table td {
     padding: 16px 0;
     text-align: center;
     font-size: 18px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 form input tel-agenda {
     padding-left: 50px;
+}
+
+tbody {
+    color: rgb(35, 146, 7);
 }
