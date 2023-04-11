@@ -33,6 +33,10 @@ header {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+    border-radius: 48px;
+    background: transparent;
+    box-shadow:  10px 10px 65px #ffffff,
+             -10px -10px 65px #ffffff;
 }
 
 form {
